@@ -3,8 +3,8 @@ import { ModalDialogOptions, ModalDialogService } from "nativescript-angular/mod
 import { PageRoute } from "nativescript-angular/router";
 import { switchMap } from "rxjs/operators";
 
-import { CarEditService } from "../../shared/car-edit.service";
-import { Car } from "../../shared/car.model";
+import { CarEditService } from "../../../shared/car-edit.service";
+import { Car } from "../../../shared/car.model";
 import { MyListSelectorModalViewComponent } from "./my-list-selector-modal-view.component";
 
 const capitalizeFirstLetter = (s) => s.charAt(0).toUpperCase() + s.slice(1);

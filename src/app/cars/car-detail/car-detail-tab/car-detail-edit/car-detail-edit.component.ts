@@ -3,9 +3,9 @@ import { PageRoute, RouterExtensions } from "nativescript-angular/router";
 import { switchMap } from "rxjs/operators";
 import { alert } from "tns-core-modules/ui/dialogs";
 
-import { CarEditService } from "../shared/car-edit.service";
-import { Car } from "../shared/car.model";
-import { CarService } from "../shared/car.service";
+import { CarEditService } from "../../shared/car-edit.service";
+import { Car } from "../../shared/car.model";
+import { CarService } from "../../shared/car.service";
 import { carClassList, carDoorList, carSeatList, carTransmissionList } from "./constants";
 
 @Component({

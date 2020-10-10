@@ -67,6 +67,6 @@ export class CarListComponent implements OnInit, OnDestroy {
                     duration: 200,
                     curve: "ease"
                 }
-            });
+            }); 
     }
 }
